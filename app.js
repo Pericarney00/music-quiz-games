@@ -21,10 +21,13 @@ const quiz1Key = []
 /*------------------------ Cached Element References ------------------------*/
 
 const questionEl = document.querySelector("#question")
-
-console.log(questionEl)
+let choiceBtnEl = document.querySelectorAll(".choice")
 
 /*----------------------------- Event Listeners -----------------------------*/
+
+choiceBtnEl.forEach((choice, id) => {
+    choice.addEventListener("click", () => {console.log("You clicked me")})
+})
 
 
 /*----------------------------- Comment Graveyard -----------------------------*/
