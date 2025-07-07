@@ -10,7 +10,7 @@ const quiz1Questions = [
         ],
         correctAnswer: "Stray Kids"
     },
-    
+
 ]
 
 const quiz1Key = []
@@ -20,6 +20,9 @@ const quiz1Key = []
 
 /*------------------------ Cached Element References ------------------------*/
 
+const questionEl = document.querySelector("#question")
+
+console.log(questionEl)
 
 /*----------------------------- Event Listeners -----------------------------*/
 
