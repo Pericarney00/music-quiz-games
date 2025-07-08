@@ -15,7 +15,7 @@ Links:
 ## **Attributions**: This section should include links to any external resources (such as libraries or assets) you used to develop your application that require attribution. You can exclude this section if it does not apply to your application.
 Images
 -[Stray Kids Image]("https://thebiaslist.com/wp-content/uploads/2025/06/stray-kids-hollow.jpg")
--
+-[SHINee Image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE4nqeaO3VhdOVG0AuxHfRlS4ZS6GNsERz9xzy3USDqO_EJaJLGHAapp1PyZ9r6HhIHYUe_C5tx6N7ZH4jzEQ48pnfXykkDSTXBBNnUDCBIF840DdE8DUll05Xj4274o3YwbQ-mhdElMoH/s640/shinee.jpg)
 -
 -
 ## **Technologies used**: List of the technologies used, for example: JavaScript, HTML, CSS, etc.
