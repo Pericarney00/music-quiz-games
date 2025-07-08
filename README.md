@@ -13,7 +13,11 @@ Links:
 - 
 
 ## **Attributions**: This section should include links to any external resources (such as libraries or assets) you used to develop your application that require attribution. You can exclude this section if it does not apply to your application.
-
+Images
+-[Stray Kids Image]("https://thebiaslist.com/wp-content/uploads/2025/06/stray-kids-hollow.jpg")
+-
+-
+-
 ## **Technologies used**: List of the technologies used, for example: JavaScript, HTML, CSS, etc.
 Next steps: Planned future enhancements (stretch goals).
 
@@ -21,6 +25,7 @@ Tech used includes:
 - HTML
 - JavaScript
 - CSS
+-[Stack_Overflow](https://stackoverflow.com/questions/38003222/javascript-adding-images-to-objects-via-object-literal-notation)
 
 Future goals:
 - Add more categories of quizes that can be taken
