@@ -10,14 +10,14 @@ const quiz1Questions = [
       "Remember Me",
       "The World Es Mi Familia",
     ],
-    correctAnswer: ["Un Poco Loco"],
+    correctAnswer: "Un Poco Loco",
     hasAnswered: false,
   },
   {
     question: "What song played during this scene?",
     imgUrl: "https://i.ytimg.com/vi/mhcTZ9ahNEQ/maxresdefault.jpg",
     possibleAnswers: ["Wall Rat", "Welcome to Gusteua's", "Le Festin", "Special Order"],
-    correctAnswer: ["Le Festin"],
+    correctAnswer: "Le Festin",
     hasAnswered: false,
   },
   {
@@ -29,7 +29,7 @@ const quiz1Questions = [
       "Remember Me",
       "The World Es Mi Familia",
     ],
-    correctAnswer: ["Remember Me"],
+    correctAnswer: "Remember Me",
     hasAnswered: false,
   },
 ];
