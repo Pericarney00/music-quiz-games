@@ -161,7 +161,7 @@ const updateQuestions = (idx) => {
 }
 updateQuestions(0);
 
-// render shows the final score
+// render shows the final score. Seperate page or within the quiz page???
 // init/ chose the quiz button
 /*----------------------------- Event Listeners -----------------------------*/
 
