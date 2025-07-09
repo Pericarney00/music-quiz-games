@@ -103,6 +103,8 @@ const choiceBtn4El = document.querySelector("#b4");
 const nextQBtnEl = document.querySelector("#b5");
 
 /*-------------------------------- Functions --------------------------------*/
+
+
 const checkScore = (event) => {
     if (event.target.innerText === quiz1Questions[idxpostion].correctAnswer && quiz1Questions[idxpostion].hasAnswered === false ) {
         total = total + 1;
@@ -124,8 +126,6 @@ const checkScore = (event) => {
     } 
     }
 
-
-
 const answerReset = () => {
     answerEl.textContent = "Will you be correct?"
 }
@@ -138,6 +138,7 @@ const nextQuestion = (event) => {
     updateQuestions(idxpostion)
     answerReset()
 }
+
 
 const updateQuestions = (idx) => {
     let questions = quiz1Questions[idx];
@@ -158,7 +159,10 @@ const updateQuestions = (idx) => {
         choice.disabled = false;
     });
 }
-updateQuestions(0)
+updateQuestions(0);
+
+// render shows the final score
+// init/ chose the quiz button
 /*----------------------------- Event Listeners -----------------------------*/
 
 choiceBtnEl.forEach((choice, id) => {
