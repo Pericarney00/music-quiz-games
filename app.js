@@ -94,16 +94,14 @@ let choiceBtnEl = document.querySelectorAll(".choice")
 let answerEl = document.querySelector("#answer")
 let imgUrlEl = document.querySelector("img")
 
-
-
-
-
+choiceBtnEl.disabled = true
 
 const choiceBtn1El = document.querySelector("#b1");
 const choiceBtn2El = document.querySelector("#b2");
 const choiceBtn3El = document.querySelector("#b3");
 const choiceBtn4El = document.querySelector("#b4");
 const nextQBtnEl = document.querySelector("#b5");
+
 /*-------------------------------- Functions --------------------------------*/
 const checkScore = (event) => {
     if (event.target.innerText === quiz1Questions[idxpostion].correctAnswer && quiz1Questions[idxpostion].hasAnswered === false ) {
@@ -111,11 +109,19 @@ const checkScore = (event) => {
         console.log("Correct")
         quiz1Questions[idxpostion].hasAnswered = true;
         answerEl.textContent = `You are correct. Your score is ${total} /10`; 
+        choiceBtnEl.forEach(choice => {
+            choice.disabled = true;
+        })
     }  
     if (event.target.innerText !== quiz1Questions[idxpostion].correctAnswer) {
+        total = total;
+        console.log("incorrect")
+        quiz1Questions[idxpostion].hasAnswered = true;
         answerEl.textContent = `Sorry, wrong. Your score is ${total} /10`;
-        
-    }  quiz1Questions[idxpostion].hasAnswered = true;
+        choiceBtnEl.forEach((choice) => {
+            choice.disabled = true;
+        });
+    } 
     }
 
 
@@ -126,8 +132,8 @@ const answerReset = () => {
 
 const nextQuestion = (event) => {
     if (
-      idxpostion <= maxIdxPosition && quiz1Questions[idxpostion].hasAnswered === true) {
-      idxpostion = idxpostion + 1;
+        idxpostion <= maxIdxPosition && quiz1Questions[idxpostion].hasAnswered === true) {
+        idxpostion = idxpostion + 1;
     } 
     updateQuestions(idxpostion)
     answerReset()
@@ -148,6 +154,9 @@ const updateQuestions = (idx) => {
 
     choiceBtn4El.textContent = questions.possibleAnswers[3];
 
+    choiceBtnEl.forEach((choice) => {
+        choice.disabled = false;
+    });
 }
 updateQuestions(0)
 /*----------------------------- Event Listeners -----------------------------*/
@@ -157,6 +166,7 @@ choiceBtnEl.forEach((choice, id) => {
 })
 
 nextQBtnEl.addEventListener("click", nextQuestion)
+
 
 /*----------------------------- Comment Graveyard -----------------------------*/
 
