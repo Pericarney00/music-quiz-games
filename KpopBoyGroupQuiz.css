@@ -1,9 +1,12 @@
-
+*{
+    box-sizing: border-box;
+}
 
 body{
     border: 8px solid black;
-    display:flex;
+    font-family:Arial, Helvetica, sans-serif
     justify-content: center;
+    background-color: rgb(123	137	120	)
     
 }
 
@@ -17,7 +20,7 @@ div{
 
 #image{
 display: flex;
-max-width: 600px;
+max-width: 500px;
 max-height: 400px;
 
 }
@@ -36,6 +39,11 @@ p{
     flex-direction: row;
 }
 
+#b1,#b2,#b3,#b4{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .nav {
 
