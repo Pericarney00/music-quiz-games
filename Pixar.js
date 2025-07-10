@@ -93,12 +93,12 @@ const quiz1Questions = [
   {
     question: "What song played during this scene?",
     imgUrl:
-        "https://miro.medium.com/v2/resize:fit:700/1*NWGvzdANSJrfpw741O4ZYw.jpeg",
+      "https://miro.medium.com/v2/resize:fit:700/1*NWGvzdANSJrfpw741O4ZYw.jpeg",
     possibleAnswers: [
-        "Sugar Rush",
-        "Candy Land",
-        "Sweet Stuff",
-        "Sugar and Gum Drops"
+      "Sugar Rush",
+      "Candy Land",
+      "Sweet Stuff",
+      "Sugar and Gum Drops",
     ],
     correctAnswer: "Sugar Rush",
     hasAnswered: false,
@@ -106,15 +106,22 @@ const quiz1Questions = [
   {
     question: "What song played during this scene?",
     imgUrl:
-        "https://static1.squarespace.com/static/55f84e6de4b052893a393717/55fe9052e4b00edfeab594f7/582b9a48cd0f6816126bc691/1714760348547/up_ellie_carl_mailbox.jpg?format=1500w",
+      "https://static1.squarespace.com/static/55f84e6de4b052893a393717/55fe9052e4b00edfeab594f7/582b9a48cd0f6816126bc691/1714760348547/up_ellie_carl_mailbox.jpg?format=1500w",
     possibleAnswers: [
-        "The Ellie Badge",
-        "Love in the Air",
-        "Married Life",
-        "Good Times",
+      "The Ellie Badge",
+      "Love in the Air",
+      "Married Life",
+      "Good Times",
     ],
     correctAnswer: "Married Life",
     hasAnswered: false,
+  },
+  {
+    question: "You answered",
+    imgUrl: "",
+    possibleAnswers: [],
+    correctAnswer: "",
+    hasAnswered: true,
   },
 ];
 
@@ -176,7 +183,27 @@ const nextQuestion = (event) => {
     idxpostion = idxpostion + 1;
   }
   updateQuestions(idxpostion);
-  answerReset();
+    answerReset();
+    winStatement();
+};
+
+const winStatement = () => {
+  const messages = [];
+  if (idxpostion === 10 && quiz1Questions[idxpostion].hasAnswered === true) {
+    if (total >= 7) {
+      messages.push("Congradulations you won");
+      imgUrlEl.src =
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6fVU8PTOLJHrZHJRhDa-JIyuNn2DoydMSw&s";
+    } else {
+      messages.push("You lose Maybe next time");
+      answerEl.textContent = "Game Over";
+      imgUrlEl.src =
+        "https://t4.ftcdn.net/jpg/01/31/41/99/360_F_131419939_Uh5AUdnNOjGiVEpFgweSWogZMXBDuGwE.jpg";
+    }
+    messages.push(` Your final score: ${total}/10 \n`);
+    messages.push("Refresh the page to try again");
+    questionEl.textContent = messages.join("\n");
+  }
 };
 
 const updateQuestions = (idx) => {
