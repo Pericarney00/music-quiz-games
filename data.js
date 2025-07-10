@@ -1,4 +1,4 @@
-const kpopBoyGroupQuiz = [
+const quiz1Questions = [
   {
     question: "What is the name of this group?",
     imgUrl:
