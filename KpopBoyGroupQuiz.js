@@ -154,9 +154,8 @@ const winStatement = () => {
   if (idxpostion === 10 && quiz1Questions[idxpostion].hasAnswered === true) {
     if (total >= 7) {
       messages.push("Congradulations you won");
-      imgUrlEl.scr =
-        "https://t3.ftcdn.net/jpg/03/12/81/58/360_F_312815843_CdVm05kiBenU3YmChP1KRIzcblRgTQFV.jpg";
-      answerEl.textContent = "Game Over";
+      imgUrlEl.src =
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6fVU8PTOLJHrZHJRhDa-JIyuNn2DoydMSw&s";
     } else {
       messages.push("You lose Maybe next time")
       answerEl.textContent = "Game Over";
