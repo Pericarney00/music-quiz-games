@@ -32,7 +32,7 @@ Images
 - [Married Life](https://static1.squarespace.com/static/55f84e6de4b052893a393717/55fe9052e4b00edfeab594f7/582b9a48cd0f6816126bc691/1714760348547/up_ellie_carl_mailbox.jpg?format=1500w)
 - [You've got a friend in me](https://i.ytimg.com/vi/ZjbSKknc2rc/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgUyg_MA8=&rs=AOn4CLDK_Z6hai5kpzHD5piKqWiRwZLLzw)
 - [Lava](https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/68f13f0b-2022-43a3-a230-c975900fd27b/lava1.jpg)
-- [Shut Up and Drive](https://static.wikia.nocookie.net/disney/images/b/b9/Tumblr_mcgkzkkcH31rfj6gho2_1280.png/revision/latest/scale-to-width-down/1200?cb=20140321175111)
+- [Shut Up and Drive](https://i.ytimg.com/vi/iFErzbXQUhE/maxresdefault.jpg )
 - [When She Loved Me](https://i.ytimg.com/vi/J30zOA6YTsU/mqdefault.jpg)
 - [Sugar Rush](https://miro.medium.com/v2/resize:fit:700/1*NWGvzdANSJrfpw741O4ZYw.jpeg)
 

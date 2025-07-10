@@ -68,8 +68,7 @@ const quiz1Questions = [
   },
   {
     question: "What song played during this scene?",
-    imgUrl:
-      "https://static.wikia.nocookie.net/disney/images/b/b9/Tumblr_mcgkzkkcH31rfj6gho2_1280.png/revision/latest/scale-to-width-down/1200?cb=20140321175111",
+    imgUrl: "https://i.ytimg.com/vi/iFErzbXQUhE/maxresdefault.jpg ",
     possibleAnswers: [
       "Fast Car",
       "Vanellope Van Schweetz",
