@@ -33,17 +33,12 @@ p{
 
 /* Buttons */
 
-.choice {
+#choice {
     /* border: 10px solid purple; */
     display: flex;
     flex-direction: row;
 }
 
-#b1,#b2,#b3,#b4{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
 .nav {
 

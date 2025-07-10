@@ -1,4 +1,4 @@
-const quiz1Questions = [
+const kpopBoyGroupQuestions = [
   {
     question: "What is the name of this group?",
     imgUrl:
@@ -87,7 +87,7 @@ const quiz1Questions = [
   },
 ];
 
-const pixarMusicScenes = [
+const pixarMusicQuestions = [
   {
     question: "What song played during this scene?",
     imgUrl:
