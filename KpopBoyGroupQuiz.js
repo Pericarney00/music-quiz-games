@@ -79,6 +79,13 @@ const quiz1Questions = [
     correctAnswer: "TXT",
     hasAnswered: false,
   },
+  {
+    question: "You answered",
+    imgUrl:"",
+    possibleAnswers: [],
+    correctAnswer: "",
+    hasAnswered: true,
+  },
 ];
 
 const quiz1Key = []
@@ -89,7 +96,7 @@ let idxpostion = 0
 
 /*------------------------ Cached Element References ------------------------*/
 
-const questionEl = document.querySelector("#question")
+let questionEl = document.querySelector("#question")
 let choiceBtnEl = document.querySelectorAll(".choice")
 let answerEl = document.querySelector("#answer")
 let imgUrlEl = document.querySelector("img")
@@ -126,9 +133,12 @@ const checkScore = (event) => {
     } 
     }
 
+
+
 const answerReset = () => {
     answerEl.textContent = "Will you be correct?"
 }
+
 
 const nextQuestion = (event) => {
     if (
@@ -136,7 +146,26 @@ const nextQuestion = (event) => {
         idxpostion = idxpostion + 1;
     } 
     updateQuestions(idxpostion)
-    answerReset()
+  answerReset()
+  winStatement()
+}
+const winStatement = () => {
+  const messages = [];
+  if (idxpostion === 10 && quiz1Questions[idxpostion].hasAnswered === true) {
+    if (total >= 7) {
+      messages.push("Congradulations you won");
+      imgUrlEl.scr =
+        "https://t3.ftcdn.net/jpg/03/12/81/58/360_F_312815843_CdVm05kiBenU3YmChP1KRIzcblRgTQFV.jpg";
+      answerEl.textContent = "Game Over";
+    } else {
+      messages.push("You lose Maybe next time")
+      answerEl.textContent = "Game Over";
+      imgUrlEl.src =
+        "https://t4.ftcdn.net/jpg/01/31/41/99/360_F_131419939_Uh5AUdnNOjGiVEpFgweSWogZMXBDuGwE.jpg";
+    } messages.push(` Your final score: ${total}/10 \n`);
+    messages.push("Refresh the page to try again");
+    questionEl.textContent = messages.join("\n")
+  }
 }
 
 
@@ -161,8 +190,7 @@ const updateQuestions = (idx) => {
 }
 updateQuestions(0);
 
-// render shows the final score. Seperate page or within the quiz page???
-// init/ chose the quiz button
+
 /*----------------------------- Event Listeners -----------------------------*/
 
 choiceBtnEl.forEach((choice, id) => {
@@ -174,6 +202,36 @@ nextQBtnEl.addEventListener("click", nextQuestion)
 
 /*----------------------------- Comment Graveyard -----------------------------*/
 
+
+// const answerReset = () => {
+//   if (idxpostion === maxIdxPosition) {
+//       answerEl.textContent = "Will you be correct?"
+//   } else if (idxpostion > maxIdxPosition) {
+//     answerEl.textContent = "Game Over";
+//   } else {
+//     answerEl.textContent = "Error";
+//   }
+//   }
+
+// render shows the final score. Seperate page or within the quiz page???
+// init/ chose the quiz button
+
+// total >= 7
+// //   ) {
+//     imgUrlEl.textContent =
+//       "https://t3.ftcdn.net/jpg/03/12/81/58/360_F_312815843_CdVm05kiBenU3YmChP1KRIzcblRgTQFV.jpg";
+// //   } else {
+//     imgUrlEl.textContent =
+//       "https://t4.ftcdn.net/jpg/01/31/41/99/360_F_131419939_Uh5AUdnNOjGiVEpFgweSWogZMXBDuGwE.jpg";
+// //   }
+
+    // const winStatement = () => {
+    //   if (idxpostion === 10 && hasAnswered === true && total >= 7) {
+    //     questionEl.textContent = "Congradulations. You win!";
+    //   } else (idxpostion === 10 && hasAnswered === true && total < 7) {
+    //     questionEl.textContent = "You lose! Maybe next time";
+    //   } winStatement()
+    // };
 
 //if statement with boolean value: answer if // if (quiz1Questions[idxpostion].hasAnswered === false) {
 
