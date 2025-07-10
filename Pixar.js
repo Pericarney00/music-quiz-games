@@ -16,7 +16,12 @@ const quiz1Questions = [
   {
     question: "What song played during this scene?",
     imgUrl: "https://i.ytimg.com/vi/mhcTZ9ahNEQ/maxresdefault.jpg",
-    possibleAnswers: ["Wall Rat", "Welcome to Gusteua's", "Le Festin", "Special Order"],
+    possibleAnswers: [
+      "Wall Rat",
+      "Welcome to Gusteua's",
+      "Le Festin",
+      "Special Order",
+    ],
     correctAnswer: "Le Festin",
     hasAnswered: false,
   },
@@ -30,6 +35,86 @@ const quiz1Questions = [
       "The World Es Mi Familia",
     ],
     correctAnswer: "Remember Me",
+    hasAnswered: false,
+  },
+  {
+    question: "What song played during this scene?",
+    imgUrl:
+      "https://www.cornel1801.com/disney/Cars-Life-Is-a-Highway/life-s-like-a-road.jpg",
+    possibleAnswers: ["Real Gone", "Life is a Highway", "Route 66", "Our Town"],
+    correctAnswer: "Life is a Highway",
+    hasAnswered: false,
+  },
+  {
+    question: "What song played during this scene?",
+    imgUrl:
+      "https://i.ytimg.com/vi/ZjbSKknc2rc/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgUyg_MA8=&rs=AOn4CLDK_Z6hai5kpzHD5piKqWiRwZLLzw",
+    possibleAnswers: [
+      "You've Got a Friend in Me",
+      "Strange Things",
+      "Infinity and Beyond",
+      "Hang Together",
+    ],
+    correctAnswer: "You've Got a Friend in Me",
+    hasAnswered: false,
+  },
+  {
+    question: "What song played during this scene?",
+    imgUrl:
+      "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/68f13f0b-2022-43a3-a230-c975900fd27b/lava1.jpg",
+    possibleAnswers: ["Someone to Lava", "Lava Love", "I lava You", "Lava"],
+    correctAnswer: "Lava",
+    hasAnswered: false,
+  },
+  {
+    question: "What song played during this scene?",
+    imgUrl:
+      "https://static.wikia.nocookie.net/disney/images/b/b9/Tumblr_mcgkzkkcH31rfj6gho2_1280.png/revision/latest/scale-to-width-down/1200?cb=20140321175111",
+    possibleAnswers: [
+      "Fast Car",
+      "Vanellope Van Schweetz",
+      "Shut Up And Drive",
+      "Sugar Rush",
+    ],
+    correctAnswer: "Shut Up And Drive",
+    hasAnswered: false,
+  },
+  {
+    question: "What song played during this scene?",
+    imgUrl: "https://i.ytimg.com/vi/J30zOA6YTsU/mqdefault.jpg",
+    possibleAnswers: [
+      "When She  Loved Me",
+      "Talk to Jessie",
+      "Jessie's In Trouble",
+      "Love Me",
+    ],
+    correctAnswer: "When She Loved Me",
+    hasAnswered: false,
+  },
+  {
+    question: "What song played during this scene?",
+    imgUrl:
+        "https://miro.medium.com/v2/resize:fit:700/1*NWGvzdANSJrfpw741O4ZYw.jpeg",
+    possibleAnswers: [
+        "Sugar Rush",
+        "Candy Land",
+        "Sweet Stuff",
+        "Sugar and Gum Drops"
+    ],
+    correctAnswer: "Sugar Rush",
+    hasAnswered: false,
+  },
+  {
+    question: "What song played during this scene?",
+    imgUrl:
+        "https://static1.squarespace.com/static/55f84e6de4b052893a393717/55fe9052e4b00edfeab594f7/582b9a48cd0f6816126bc691/1714760348547/up_ellie_carl_mailbox.jpg?format=1500w",
+    possibleAnswers: [
+        "The Ellie Badge",
+        "Love in the Air",
+        "Married Life",
+        "Good Times",
+    ],
+    correctAnswer: "Married Life",
     hasAnswered: false,
   },
 ];
