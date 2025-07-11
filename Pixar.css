@@ -50,14 +50,21 @@ button{
     justify-content: center;
     
 }
+
 #choice {
     display: flex;
     flex-direction: row;
     gap:20px;
 }
 
+.choice{
+display:flex;
+justify-content: center;
+align-items: center;
+}
 
 .nav {
-    display: flex;
-    justify-content: 
+    display:flex;
+justify-content: center;
+align-items: center;
 }

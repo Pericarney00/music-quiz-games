@@ -43,6 +43,7 @@ p{
 button{
     display:flex;
     background-color: rgb(160,190,166);
+    font-family:"Delius Swash Caps", sans-serif;
     width:150px;
     height:50px;
     justify-content: center;
@@ -55,7 +56,14 @@ button{
 }
 
 
-.nav {
-    display: flex;
-    justify-content: 
-}
+.choice{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .nav {
+        display:flex;
+    justify-content: center;
+    align-items: center;
+    }

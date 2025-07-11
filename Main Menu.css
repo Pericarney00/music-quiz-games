@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sevillana&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family:"Delius Swash Caps", sans-serif;
+    justify-content: center;
+    background-color: rgb(200,226,251)
+    
+}
+
+button{
+    display:flex;
+    background-color: rgb(155,138,189);
+    font-family:"Delius Swash Caps", sans-serif;
+    width:150px;
+    height:50px;
+    justify-content: center;
+    
+}
+
+#kpop{
+    background-color: rgb(160,190,166);
+}
+
+
+.category{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
