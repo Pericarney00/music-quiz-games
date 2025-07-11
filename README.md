@@ -36,6 +36,8 @@ Images
 - [When She Loved Me](https://i.ytimg.com/vi/J30zOA6YTsU/mqdefault.jpg)
 - [Sugar Rush](https://miro.medium.com/v2/resize:fit:700/1*NWGvzdANSJrfpw741O4ZYw.jpeg)
 - [KpopQuizMusic](Music by <a href="https://pixabay.com/users/sekuora-40269569/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=242507">Sekuora</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=242507">Pixabay</a>)
+- [You Win]("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6fVU8PTOLJHrZHJRhDa-JIyuNn2DoydMSw&s")
+- [You Lose]("https://t4.ftcdn.net/jpg/01/31/41/99/360_F_131419939_Uh5AUdnNOjGiVEpFgweSWogZMXBDuGwE.jpg")
 
 
 
