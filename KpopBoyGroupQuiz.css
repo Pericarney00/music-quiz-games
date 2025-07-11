@@ -2,16 +2,22 @@
     box-sizing: border-box;
 }
 
+#title{
+    display:flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
 body{
-    border: 8px solid black;
+    border: 8px solid rgb(34,50,28);
     font-family:Arial, Helvetica, sans-serif
     justify-content: center;
-    background-color: rgb(123	137	120	)
+    background-color: rgb(123, 137, 120	)
     
 }
 
 div{
-    border: 8px solid pink;
+    border: 8px inset rgb(34,50,28);
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +26,7 @@ div{
 
 #image{
 display: flex;
-max-width: 500px;
+max-width:100% ;
 max-height: 400px;
 
 }
@@ -29,17 +35,24 @@ p{
     font-size: larger;
 }
 
-
-
 /* Buttons */
 
+button{
+    display:flex;
+    background-color: rgb(160,190,166);
+    width:150px;
+    height:50px;
+    justify-content: center;
+    
+}
 #choice {
-    /* border: 10px solid purple; */
     display: flex;
     flex-direction: row;
+    gap:20px;
 }
 
 
 .nav {
-
+    display: flex;
+    justify-content: 
 }
