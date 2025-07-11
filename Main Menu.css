@@ -10,7 +10,6 @@ body{
     font-family:"Delius Swash Caps", sans-serif;
     justify-content: center;
     background-color: rgb(200,226,251)
-    
 }
 
 button{
@@ -19,14 +18,12 @@ button{
     font-family:"Delius Swash Caps", sans-serif;
     width:150px;
     height:50px;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 #kpop{
     background-color: rgb(160,190,166);
 }
-
 
 .category{
     display:flex;
