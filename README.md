@@ -2,15 +2,17 @@
 
 ## **Screenshot/Logo**: A screenshot of your app or a logo.
 
+![Image of Main Screen](/assets//Music%20Quiz%20Games.png)
+
 ## **Your game’s name**: Include a description of your game and what it does. Background info about the game and why you chose it is a nice touch.
 
-> I chose to make my game music themed quizes becuase music encompases so many things. The possibilites of quizes that can be made are endless. Music came as a natural topic for me since I was formally a music teacher. I love all things music and it is something I interact with daily. Music Quiz Games is a game filled with multiple kinds of music quizes. Users can put their knowledge to the test. Each quiz will contain 10 questions.
+> I chose to make my game music themed quizes because the theme of music encompases so many differnt things. The possibilites of quizes that can be made are endless. Music came as a natural topic for me since I was formally a music teacher. I love all things music and it is something I interact with daily. Music Quiz Games is a game filled with multiple kinds of music quizes. Users can put their knowledge to the test. Each quiz will contain 10 questions.
 
 ## **Getting started**: Include a link to your deployed game and any instructions you deem important. This should also contain a link to your planning materials.
 
 Links:
 - [Planning Material](https://docs.google.com/document/d/11ReMov305tonV5zH8cCv0LEoBBh5YpxjILkXS5Cu-pU/edit?usp=sharing)
-- 
+- [Deployed Game](https://pericarney00.github.io/music-quiz-games/)
 
 ## **Attributions**: This section should include links to any external resources (such as libraries or assets) you used to develop your application that require attribution. You can exclude this section if it does not apply to your application.
 Images
@@ -35,11 +37,11 @@ Images
 - [Shut Up and Drive](https://i.ytimg.com/vi/iFErzbXQUhE/maxresdefault.jpg )
 - [When She Loved Me](https://i.ytimg.com/vi/J30zOA6YTsU/mqdefault.jpg)
 - [Sugar Rush](https://miro.medium.com/v2/resize:fit:700/1*NWGvzdANSJrfpw741O4ZYw.jpeg)
-- [KpopQuizMusic](Music by <a href="https://pixabay.com/users/sekuora-40269569/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=242507">Sekuora</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=242507">Pixabay</a>)
 - [You Win]("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6fVU8PTOLJHrZHJRhDa-JIyuNn2DoydMSw&s")
 - [You Lose]("https://t4.ftcdn.net/jpg/01/31/41/99/360_F_131419939_Uh5AUdnNOjGiVEpFgweSWogZMXBDuGwE.jpg")
 
-
+Music:
+- [KpopQuizMusic](Music by <a href="https://pixabay.com/users/sekuora-40269569/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=242507">Sekuora</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=242507">Pixabay</a>)
 
 ## **Technologies used**: List of the technologies used, for example: JavaScript, HTML, CSS, etc.
 Next steps: Planned future enhancements (stretch goals).
@@ -48,7 +50,7 @@ Tech used includes:
 - HTML
 - JavaScript
 - CSS
--[Stack_Overflow](https://stackoverflow.com/questions/38003222/javascript-adding-images-to-objects-via-object-literal-notation)
+- [Stack_Overflow](https://stackoverflow.com/questions/38003222/javascript-adding-images-to-objects-via-object-literal-notation)
 
 Future goals:
 - Add more categories of quizes that can be taken
