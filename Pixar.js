@@ -87,7 +87,7 @@ const updateQuestions = (idx) => {
 
   imgUrlEl.src = questions.imgUrl;
 
-  audioEl.src = questions.audio
+  audioEl.src = questions.audio;
 
   choiceBtn2El.textContent = questions.possibleAnswers[1];
 
