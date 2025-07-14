@@ -27,21 +27,33 @@ Images
 - [IKON](https://i0.wp.com/ulzza.com/wp-content/uploads/2019/07/iKONs-First-Public-Appearance-As-A-6-Member-Group.jpg?w=700&ssl=1)
 - [NCT](https://pm1.aminoapps.com/7048/67445bd683e0f134c2e5f3e48b947f86f5cc94e3r1-720-400v2_hq.jpg)
 - [TXT](https://c.ndtvimg.com/2024-11/iq7ctal8_txt_625x300_18_November_24.jpg?downsize=773:435)
-- [Un poco loco]("https://insidethemagic.net/wp-content/uploads/2017/11/Screen-Shot-2017-11-30-at-1.05.39-PM.jpg")
-- [Le Festin]("https://i.ytimg.com/vi/mhcTZ9ahNEQ/maxresdefault.jpg")
-- [Remember Me]("https://i.ytimg.com/vi/NiRIp_2524M/maxresdefault.jpg")
-- [Life is a Highway](https://www.cornel1801.com/disney/Cars-Life-Is-a-Highway/life-s-like-a-road.jpg)
-- [Married Life](https://static1.squarespace.com/static/55f84e6de4b052893a393717/55fe9052e4b00edfeab594f7/582b9a48cd0f6816126bc691/1714760348547/up_ellie_carl_mailbox.jpg?format=1500w)
-- [You've got a friend in me](https://i.ytimg.com/vi/ZjbSKknc2rc/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgUyg_MA8=&rs=AOn4CLDK_Z6hai5kpzHD5piKqWiRwZLLzw)
-- [Lava](https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/68f13f0b-2022-43a3-a230-c975900fd27b/lava1.jpg)
-- [Shut Up and Drive](https://i.ytimg.com/vi/iFErzbXQUhE/maxresdefault.jpg )
-- [When She Loved Me](https://i.ytimg.com/vi/J30zOA6YTsU/mqdefault.jpg)
-- [Sugar Rush](https://miro.medium.com/v2/resize:fit:700/1*NWGvzdANSJrfpw741O4ZYw.jpeg)
+- [Un poco loco](https://open.spotify.com/track/0OFknyqxmSQ42SoKxWVTok?si=2d8ad72374c44c8a)
+- [Le Festin](https://open.spotify.com/track/02JIdsrod3BYucThfUFDUX?si=107b5d10325c44a3)
+- [Remember Me](https://open.spotify.com/track/4ljlAxfaEjO4Q4g9FMtVj4?si=992c973292c54672)
+- [Life is a Highway](https://open.spotify.com/track/5gB2IrxOCX2j9bMnHKP38i?si=6e94c1ad8b3e482f)
+- [Married Life](https://open.spotify.com/track/7iocNjLrxPHLl8njgRlv5U?si=3525b8dd17f1477c)
+- [You've got a friend in me](https://open.spotify.com/track/2stkLJ0JNcXkIRDNF3ld6c?si=c19f0651d69e4336)
+- [Lava](https://open.spotify.com/track/0wqeaDeaKq14IuQESPqBEJ?si=72171eb1faeb4468)
+- [Shut Up and Drive](https://open.spotify.com/track/3kM1Rc8bQDNpAtXCiAhGV5?si=463b5bc193d84ad7)
+- [When She Loved Me](https://open.spotify.com/track/780W6YW5HFANQLR77Owern?si=90574ccee49e4395)
+- [Sugar Rush](https://open.spotify.com/track/4QTqzaot78lDo2gkauEgq5?si=37f4d444105e4617)
 - [You Win]("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6fVU8PTOLJHrZHJRhDa-JIyuNn2DoydMSw&s")
 - [You Lose]("https://t4.ftcdn.net/jpg/01/31/41/99/360_F_131419939_Uh5AUdnNOjGiVEpFgweSWogZMXBDuGwE.jpg")
 
+
+
 Music:
 - [KpopQuizMusic](Music by <a href="https://pixabay.com/users/sekuora-40269569/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=242507">Sekuora</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=242507">Pixabay</a>)
+- [Un Poco Loco]("https://open.spotify.com/embed/track/0OFknyqxmSQ42SoKxWVTok?utm_source=generator")
+- [Le Festin]("https://open.spotify.com/embed/track/02JIdsrod3BYucThfUFDUX?utm_source=generator")
+- [Remember Me]("https://open.spotify.com/embed/track/4ljlAxfaEjO4Q4g9FMtVj4?utm_source=generator")
+- [Life is a Highway]("https://open.spotify.com/embed/track/5gB2IrxOCX2j9bMnHKP38i?utm_source=generator")
+- [You've Got a Friend In Me]("https://open.spotify.com/embed/track/2stkLJ0JNcXkIRDNF3ld6c?utm_source=generator")
+- [Lava]("https://open.spotify.com/embed/track/0wqeaDeaKq14IuQESPqBEJ?utm_source=generator")
+- [Shut Up and Drive]("https://open.spotify.com/embed/track/3kM1Rc8bQDNpAtXCiAhGV5?utm_source=generator" )
+- [When She Loved Me]("https://open.spotify.com/embed/track/780W6YW5HFANQLR77Owern?utm_source=generator")
+- [Sugar Rush]("https://open.spotify.com/embed/track/4QTqzaot78lDo2gkauEgq5?utm_source=generator")
+- [Married Life]("https://open.spotify.com/embed/track/7iocNjLrxPHLl8njgRlv5U?utm_source=generator")
 
 ## **Technologies used**: List of the technologies used, for example: JavaScript, HTML, CSS, etc.
 Next steps: Planned future enhancements (stretch goals).

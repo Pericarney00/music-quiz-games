@@ -10,7 +10,7 @@ let questionEl = document.querySelector("#question");
 let choiceBtnEl = document.querySelectorAll(".choice");
 let answerEl = document.querySelector("#answer");
 let imgUrlEl = document.querySelector("img");
-
+let audioEl = document.querySelector("audio")
 choiceBtnEl.disabled = true;
 
 const choiceBtn1El = document.querySelector("#b1");
@@ -77,6 +77,7 @@ const winStatement = () => {
   }
 };
 
+
 const updateQuestions = (idx) => {
   let questions = pixarMusicQuestions[idx];
 
@@ -85,6 +86,8 @@ const updateQuestions = (idx) => {
   choiceBtn1El.textContent = questions.possibleAnswers[0];
 
   imgUrlEl.src = questions.imgUrl;
+
+  audioEl.src = questions.audio
 
   choiceBtn2El.textContent = questions.possibleAnswers[1];
 
@@ -97,6 +100,7 @@ const updateQuestions = (idx) => {
   });
 };
 updateQuestions(0);
+
 
 
 choiceBtnEl.forEach((choice, id) => {

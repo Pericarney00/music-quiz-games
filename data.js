@@ -92,6 +92,7 @@ const pixarMusicQuestions = [
     question: "What song played during this scene?",
     imgUrl:
       "https://insidethemagic.net/wp-content/uploads/2017/11/Screen-Shot-2017-11-30-at-1.05.39-PM.jpg",
+    audio: "assets/Un Poco Loco.mp3",
     possibleAnswers: [
       "Un Poco Loco",
       "La Llorona",
@@ -104,6 +105,7 @@ const pixarMusicQuestions = [
   {
     question: "What song played during this scene?",
     imgUrl: "https://i.ytimg.com/vi/mhcTZ9ahNEQ/maxresdefault.jpg",
+    audio: "assets/Le Festin.mp3",
     possibleAnswers: [
       "Wall Rat",
       "Welcome to Gusteua's",
@@ -116,6 +118,7 @@ const pixarMusicQuestions = [
   {
     question: "What song played during this scene?",
     imgUrl: "https://i.ytimg.com/vi/NiRIp_2524M/maxresdefault.jpg",
+    audio: "assets/Remember Me.mp3",
     possibleAnswers: [
       "Un Poco Loco",
       "La Llorona",
@@ -129,6 +132,7 @@ const pixarMusicQuestions = [
     question: "What song played during this scene?",
     imgUrl:
       "https://www.cornel1801.com/disney/Cars-Life-Is-a-Highway/life-s-like-a-road.jpg",
+    audio: "assets/Life is a Highway.mp3",
     possibleAnswers: ["Real Gone", "Life is a Highway", "Route 66", "Our Town"],
     correctAnswer: "Life is a Highway",
     hasAnswered: false,
@@ -137,6 +141,7 @@ const pixarMusicQuestions = [
     question: "What song played during this scene?",
     imgUrl:
       "https://i.ytimg.com/vi/ZjbSKknc2rc/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgUyg_MA8=&rs=AOn4CLDK_Z6hai5kpzHD5piKqWiRwZLLzw",
+    audio:"assets/Yu've Got a Friend in Me.mp3",
     possibleAnswers: [
       "You've Got a Friend in Me",
       "Strange Things",
@@ -150,6 +155,7 @@ const pixarMusicQuestions = [
     question: "What song played during this scene?",
     imgUrl:
       "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/68f13f0b-2022-43a3-a230-c975900fd27b/lava1.jpg",
+    audio:"assets/Lava.mp3",
     possibleAnswers: ["Someone to Lava", "Lava Love", "I lava You", "Lava"],
     correctAnswer: "Lava",
     hasAnswered: false,
@@ -157,6 +163,7 @@ const pixarMusicQuestions = [
   {
     question: "What song played during this scene?",
     imgUrl: "https://i.ytimg.com/vi/iFErzbXQUhE/maxresdefault.jpg ",
+    audio:"assets/Shut Up and Drive.mp3",
     possibleAnswers: [
       "Fast Car",
       "Vanellope Van Schweetz",
@@ -169,6 +176,7 @@ const pixarMusicQuestions = [
   {
     question: "What song played during this scene?",
     imgUrl: "https://i.ytimg.com/vi/J30zOA6YTsU/mqdefault.jpg",
+    audio:"assets/When She Loved Me.mp3",
     possibleAnswers: [
       "When She  Loved Me",
       "Talk to Jessie",
@@ -182,6 +190,7 @@ const pixarMusicQuestions = [
     question: "What song played during this scene?",
     imgUrl:
       "https://miro.medium.com/v2/resize:fit:700/1*NWGvzdANSJrfpw741O4ZYw.jpeg",
+    audio:"assets/Sugar Rush.mp3",
     possibleAnswers: [
       "Sugar Rush",
       "Candy Land",
@@ -195,6 +204,7 @@ const pixarMusicQuestions = [
     question: "What song played during this scene?",
     imgUrl:
       "https://static1.squarespace.com/static/55f84e6de4b052893a393717/55fe9052e4b00edfeab594f7/582b9a48cd0f6816126bc691/1714760348547/up_ellie_carl_mailbox.jpg?format=1500w",
+    audio: "assets/Married Life.mp3",
     possibleAnswers: [
       "The Ellie Badge",
       "Love in the Air",
@@ -207,6 +217,7 @@ const pixarMusicQuestions = [
   {
     question: "You answered",
     imgUrl: "",
+    audio: "",
     possibleAnswers: [],
     correctAnswer: "",
     hasAnswered: true,
